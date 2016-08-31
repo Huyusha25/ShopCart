@@ -412,7 +412,9 @@
                 }
                 //添加商店
                 if (isSelect) {
-                    [self.selectedStoreArr addObject:@(model.store_id)];
+                    if (![self.selectedStoreArr containsObject:@(model.store_id)]) {
+                        [self.selectedStoreArr addObject:@(model.store_id)];
+                    }
                 }
             }
             [self.modelArr removeObject:model];

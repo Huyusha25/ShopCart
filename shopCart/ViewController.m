@@ -419,7 +419,11 @@
             }
             [self.modelArr removeObject:model];
             //看是否全选中
-            if ([self.modelArr isEqualToArray:self.selectedArray]) {
+//            NSEnumerator *e1 = [self.modelArr objectEnumerator];
+//            NSEnumerator *e2 = [self.selectedArray objectEnumerator];
+            NSSet *s1 = [[NSSet alloc]initWithArray:self.modelArr];
+            NSSet *s2 = [[NSSet alloc] initWithArray:self.selectedArray];
+            if ([s1 isEqual:s2]) {
                 self.bottonView.selectedBtn.selected = YES;
             }
             if (self.modelArr.count == 0) {

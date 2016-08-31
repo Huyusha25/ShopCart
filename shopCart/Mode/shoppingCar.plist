@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cart_id</key>
+		<string>1</string>
+		<key>store_id</key>
+		<string>1</string>
+		<key>goods_id</key>
+		<string>10</string>
+		<key>goods_image</key>
+		<string>image_a</string>
+		<key>goods_name</key>
+		<string>2016春季新款真皮魔术贴休闲鞋女高帮学生运动板鞋平底单鞋</string>
+		<key>goods_num</key>
+		<string>1</string>
+		<key>goods_price</key>
+		<string>235</string>
+		<key>store_name</key>
+		<string>小猫的店</string>
+	</dict>
+	<dict>
+		<key>cart_id</key>
+		<string>3</string>
+		<key>store_id</key>
+		<string>2</string>
+		<key>goods_id</key>
+		<string>10</string>
+		<key>goods_image</key>
+		<string>image_c</string>
+		<key>goods_name</key>
+		<string>甜美风重工立体花钉钻A 字形雪纺气质无袖连衣裙</string>
+		<key>goods_num</key>
+		<string>1</string>
+		<key>goods_price</key>
+		<string>199.9</string>
+		<key>store_name</key>
+		<string>名媛奢华甜美风</string>
+	</dict>
+	<dict>
+		<key>cart_id</key>
+		<string>4</string>
+		<key>store_id</key>
+		<string>2</string>
+		<key>goods_id</key>
+		<string>10</string>
+		<key>goods_image</key>
+		<string>image_d</string>
+		<key>goods_name</key>
+		<string>2016夏装新款韩版修身荷叶袖连衣裙39</string>
+		<key>goods_num</key>
+		<string>1</string>
+		<key>goods_price</key>
+		<string>99.0</string>
+		<key>store_name</key>
+		<string>名媛奢华甜美风</string>
+	</dict>
+</array>
+</plist>
